@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_row_layout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="7" >
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_span="3"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="8dip"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/one_bee_played"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_span="3"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="8dip"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/one_bee_game_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:padding="8dip"
+        android:src="@drawable/level_lock"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/one_bee_won"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_span="3"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="8dip"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/one_bee_won_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/level_lock"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/one_bee_average"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_span="3"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="8dip"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/one_bee_average_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/level_lock"
+        android:visibility="gone" />
+ <TextView
+        android:id="@+id/two_bee_played"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_span="3"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="8dip"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/two_bee_game_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:padding="8dip"
+        android:src="@drawable/level_lock"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/two_bee_won"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_span="3"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="8dip"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/two_bee_won_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:padding="8dip"
+        android:src="@drawable/level_lock"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/two_bee_average"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_span="3"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="8dip"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/two_bee_average_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:padding="8dip"
+        android:src="@drawable/level_lock"
+        android:visibility="gone" />
+</LinearLayout>

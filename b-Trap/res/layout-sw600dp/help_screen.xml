@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:background="@color/screen_shot_bg"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@android:color/black"
+        android:textSize="35dp"
+        android:textColor="@android:color/white"
+        android:text="  How to Play?"/>
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="7dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:text="1.Put brown blocks to trap the bee."/>
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="7dp"
+        android:text="2.You win when there is no way for the bee to escape."/>
+       <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="20dp"
+        android:text="3.Trap the bee in minimum moves!"/>
+
+</LinearLayout>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bee Trap</string>
+    <string name="play_button">play</string>
+    <string name="rate_button">rate</string>
+    <string name="help_button">help</string>
+    <string name="difficulty_button">difficulty</string>
+    <string name="level">level</string>
+    <string name="play_again_button">play again</string>
+    <string name="home_button">home</string>
+    <string name="select_level_tab">     Select Level:</string>
+    <string name="select_level">Levels</string>
+    <string name="winning_text">congratulations</string>
+    <string name="losing_text">damn! bee got away</string>
+    <string name="moves">moves</string>
+    <string name="how_to_play">How to Play?</string>
+    <string name="help_1">1.Put brown blocks to trap the bee.</string>
+    <string name="help_2">2.You win when there is no way for the bee to escape.</string>
+    <string name="help_3">3.Trap the bee in minimum moves!</string>
+    <string name="played">Played</string>
+    <string name="won">Won</string>
+    <string name="average_moves">Average Moves</string>
+    <string name="unlocked_toast_text">Level Unlocked</string>
+    <string name="lock_count_toast1">Trap the bee </string>
+    <string name="locked_toast_text">times at Level </string>
+    <string name="lock_count_toast2">\n more times to unlock</string>
+    <string name="mainscreen_banner_ad_unit_id">ca-app-pub-9256496779774648/6088584414</string>
+    <string name="main_banner_ad_unit_id">ca-app-pub-9256496779774648/8623248411</string>
+    <string name="app_google_play_link">https://play.google.com/store/apps/details?id=com.b.trap</string>
+    
+
+</resources>
